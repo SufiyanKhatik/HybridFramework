@@ -2,20 +2,20 @@
 <testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4569" started-at="2022-11-27T13:24:51Z" finished-at="2022-11-27T13:24:55Z">
+  <suite name="Suite" duration-ms="7075" started-at="2022-12-10T04:20:05Z" finished-at="2022-12-10T04:20:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="4569" started-at="2022-11-27T13:24:51Z" finished-at="2022-11-27T13:24:55Z">
+    <test name="Test" duration-ms="7075" started-at="2022-12-10T04:20:05Z" finished-at="2022-12-10T04:20:12Z">
       <class name="com.tests.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.LoginTest@31ef45e3]" name="setup" is-config="true" duration-ms="14674" started-at="2022-11-27T13:24:36Z" finished-at="2022-11-27T13:24:51Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.LoginTest@31ef45e3]" name="setup" is-config="true" duration-ms="36284" started-at="2022-12-10T04:19:29Z" finished-at="2022-12-10T04:20:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test01()[pri:0, instance:com.tests.LoginTest@31ef45e3]" name="test01" duration-ms="2488" started-at="2022-11-27T13:24:52Z" finished-at="2022-11-27T13:24:55Z">
+        <test-method status="PASS" signature="test01()[pri:0, instance:com.tests.LoginTest@31ef45e3]" name="test01" duration-ms="3721" started-at="2022-12-10T04:20:07Z" finished-at="2022-12-10T04:20:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
-        <test-method status="FAIL" signature="test02()[pri:0, instance:com.tests.LoginTest@31ef45e3]" name="test02" duration-ms="16" started-at="2022-11-27T13:24:55Z" finished-at="2022-11-27T13:24:55Z">
+        <test-method status="FAIL" signature="test02()[pri:0, instance:com.tests.LoginTest@31ef45e3]" name="test02" duration-ms="30" started-at="2022-12-10T04:20:11Z" finished-at="2022-12-10T04:20:11Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [JavaByKiran | Dashboard1] but found [JavaByKiran | Dashboard]]]>
@@ -28,7 +28,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:453)
 at org.testng.Assert.assertEquals(Assert.java:463)
-at com.tests.LoginTest.test02(LoginTest.java:26)
+at com.tests.LoginTest.test02(LoginTest.java:28)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -64,14 +64,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test02 -->
-        <test-method status="SKIP" signature="test03()[pri:0, instance:com.tests.LoginTest@31ef45e3]" name="test03" duration-ms="1" started-at="2022-11-27T13:24:55Z" finished-at="2022-11-27T13:24:55Z">
+        <test-method status="SKIP" signature="test03()[pri:0, instance:com.tests.LoginTest@31ef45e3]" name="test03" duration-ms="1" started-at="2022-12-10T04:20:12Z" finished-at="2022-12-10T04:20:12Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[skipping testcase]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: skipping testcase
-at com.tests.LoginTest.test03(LoginTest.java:30)
+at com.tests.LoginTest.test03(LoginTest.java:33)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
