@@ -25,7 +25,7 @@ public void test01() {
 
 @Test
 public void test02() {
-	Assert.assertEquals(driver.getTitle(), "JavaByKiran | Dashboard1");
+	Assert.assertEquals(driver.getTitle(), "JavaByKiran | Dashboard");
 }
 
 @Test
